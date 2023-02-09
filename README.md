@@ -3,8 +3,8 @@
 ![Programming Language](https://img.shields.io/badge/language-Go-orange.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/IceflowRE/go-multiprogressbar/blob/master/LICENSE.md)
 
-[![Go report card](https://goreportcard.com/badge/github.com/IceflowRE/go-multiprogressbar/v1)](https://goreportcard.com/report/github.com/IceflowRE/go-multiprogressbar/v1)
-[![Go Reference](https://pkg.go.dev/badge/github.com/IceflowRE/go-multiprogressbar/v1.svg)](https://pkg.go.dev/github.com/IceflowRE/go-multiprogressbar/v1)
+[![Go report card](https://goreportcard.com/badge/github.com/IceflowRE/go-multiprogressbar)](https://goreportcard.com/report/github.com/IceflowRE/go-multiprogressbar)
+[![Go Reference](https://pkg.go.dev/badge/github.com/IceflowRE/go-multiprogressbar.svg)](https://pkg.go.dev/github.com/IceflowRE/go-multiprogressbar)
 
 ---
 
@@ -12,7 +12,7 @@ Go multi progress bar wraps around [schollz/progressbar](https://github.com/scho
 
 The library might work for simple cases only and is not tested extensively.
 
-While being in v1 the API might change and even introduce breaking changes in minor versions.
+The API might introduce breaking changes from commit to commit for now.
 
 ## Why another multi progress bar?
 
@@ -25,7 +25,7 @@ I am using `schollz/progressbar` heavily, because it is simple and covers all my
 go-multiprogressbar is compatible with modern Go releases and modules enabled.
 
 ```shell
-go get github.com/IceflowRE/go-multiprogressbar/v1
+go get github.com/IceflowRE/go-multiprogressbar
 ```
 
 will resolve and add the package to the current development module, along with its dependencies.
@@ -33,7 +33,7 @@ will resolve and add the package to the current development module, along with i
 Or just import it and run `go get` afterwards
 
 ```go
-import "github.com/IceflowRE/go-multiprogressbar/v1"
+import "github.com/IceflowRE/go-multiprogressbar"
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ import "github.com/IceflowRE/go-multiprogressbar/v1"
 ### Import
 
 ```go
-import "github.com/IceflowRE/go-multiprogressbar/v1"
+import "github.com/IceflowRE/go-multiprogressbar"
 ```
 
 ### Basic usage

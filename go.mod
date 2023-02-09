@@ -1,4 +1,4 @@
-module github.com/IceflowRE/go-multiprogressbar/v1
+module github.com/IceflowRE/go-multiprogressbar
 
 go 1.19
 
