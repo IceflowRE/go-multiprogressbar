@@ -1,5 +1,5 @@
 # Go Multi Progress Bar
-![maintained](https://img.shields.io/badge/maintained-yes-brightgreen.svg)
+![experiment](https://img.shields.io/badge/status-exprimental-yellow.svg)
 ![Programming Language](https://img.shields.io/badge/language-Go-orange.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/IceflowRE/go-multiprogressbar/blob/master/LICENSE.md)
 

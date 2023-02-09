@@ -20,7 +20,7 @@ func main() {
 	mpb.Get(0).Describe("Bar Zero")
 	mpb.Get(1).Describe("Bar One")
 	mpb.Get(2).Describe("Bar Two")
-	
+
 	for val := 0; val < 300; val++ {
 		time.Sleep(10 * time.Millisecond)
 		barId := val % 3
