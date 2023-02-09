@@ -1,0 +1,12 @@
+name: Commit Check
+on: [push, pull_request]
+
+jobs:
+  commit-check:
+    name: Commit Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Commit Message Check
+        uses: IceflowRE/gitcc@v2
+        with:
+          validator: SimpleTag
