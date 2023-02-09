@@ -12,6 +12,8 @@ Go multi progress bar wraps around [schollz/progressbar](https://github.com/scho
 
 The library might work for simple cases only and is not tested extensively.
 
+While being in v1 the API might change and even introduce breaking changes in minor versions.
+
 ## Why another multi progress bar?
 
 Iam aware of the working and tested multi progress bars out there. Use them if you want a battle-tested library.
