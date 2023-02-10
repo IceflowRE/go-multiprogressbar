@@ -47,6 +47,17 @@ func (mpb *MultiProgressBar) BarCount() int {
 	return len(mpb.bars)
 }
 
+// RenderBlank calls RenderBlank on all progress bars.
+// If an error is thrown, RenderBlank might not be called on all bars.
+func (mpb *MultiProgressBar) RenderBlank() error {
+	for _, pbar := range mpb.bars {
+		err := pbar.RenderBlank()
+		if err != nil {
+			return err
+		}
+	}
+}
+
 // Finish calls Finish on all progress bars.
 // If an error is thrown, Finish might not be called on all bars.
 // This will also call End.
