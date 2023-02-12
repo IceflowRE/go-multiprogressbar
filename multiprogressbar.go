@@ -56,6 +56,7 @@ func (mpb *MultiProgressBar) RenderBlank() error {
 			return err
 		}
 	}
+	return nil
 }
 
 // Finish calls Finish on all progress bars.
