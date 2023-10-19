@@ -2,10 +2,11 @@ package multiprogressbar
 
 import (
 	"fmt"
-	"github.com/schollz/progressbar/v3"
 	"io"
 	"os"
 	"sync"
+
+	"github.com/schollz/progressbar/v3"
 )
 
 type MultiProgressBar struct {
@@ -16,12 +17,21 @@ type MultiProgressBar struct {
 }
 
 func New() *MultiProgressBar {
-	return &MultiProgressBar{
+	return NewOptions()
+}
+
+// NewOptions creates a new multi progressbar with passed options.
+func NewOptions(options ...Option) *MultiProgressBar {
+	mpb := &MultiProgressBar{
 		curLine: 0,
 		bars:    []*progressbar.ProgressBar{},
 		guard:   sync.Mutex{},
 		output:  os.Stdout,
 	}
+	for _, opt := range options {
+		opt(mpb)
+	}
+	return mpb
 }
 
 // Add a progress bar. This will change the writer of the progress bar.
