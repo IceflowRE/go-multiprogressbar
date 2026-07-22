@@ -3,7 +3,6 @@
 ![Programming Language](https://img.shields.io/badge/language-Go-orange.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/IceflowRE/go-multiprogressbar/blob/master/LICENSE.md)
 
-[![Go report card](https://goreportcard.com/badge/github.com/IceflowRE/go-multiprogressbar)](https://goreportcard.com/report/github.com/IceflowRE/go-multiprogressbar)
 [![Go Reference](https://pkg.go.dev/badge/github.com/IceflowRE/go-multiprogressbar.svg)](https://pkg.go.dev/github.com/IceflowRE/go-multiprogressbar)
 
 ---
